@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP | EXPRESS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+
+<body onload="getAllPost()">
+
+<center>
+    <h1>MY EXPRESS CRUD APP </h1>
+</center>
+    <form onsubmit="createPost(); return false">
+
+        <h2 class="al">Create a Post:</h2>
+        <div class="coolinput">
+        <label for="input" class="text">Title:</label>
+        <input class="input" type="text" name="postTitle" id="postTitle" placeholder="Enter Your Title">
+
+        <br>
+        <label for="input" class="text">Text:</label>
+       <input class="input" type="text" name="postText" id="postText" placeholder="Enter Your Text">
+
+        <br>
+
+    </div>
+    
+    <!-- <span id="fe"> -->
+    <center>
+    <button id="sp"  class="btn" type="submit">Create Post</button>
+</center>
+<!-- </span> -->
+
+        <br>
+    </form>
+
+    <div id="result"></div>
+    <br>
+    <br>
+    <div class="p-container">
+    <div id="posts"></div>
+</div>
+
+
+
+
+
+
+</body>
+<!-- axios link -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.js"></script>
+<!-- my own js link -->
+<script type="module" src="app.mjs"></script>
+<!-- bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</html>
