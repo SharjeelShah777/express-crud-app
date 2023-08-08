@@ -7,8 +7,8 @@ let router = express.Router()
 let posts = [
     {
         id: nanoid(),
-        title: "abc post title",
-        text: "some post text"
+        title: "Sharjeel Shah",
+        text: "Web Developer"
     }
 ]
 

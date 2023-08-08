@@ -2,6 +2,7 @@
     font-family: "Poppins", "sans-serif";
     font-weight: bold!important;
     outline: none!important;
+    /* background:#444654; */
 }
 
 body {
@@ -17,6 +18,7 @@ body {
     -ms-overflow-style: none;
   scrollbar-width: none;
 
+
 }
 .comment {
     border: 1px solid black;
@@ -30,6 +32,7 @@ body {
     justify-content: space-between;
     /* justify-content: right; */
     flex-direction: column;
+    margin-top: -6rem;
     flex-wrap: wrap;
     align-items: center;
     padding: 1.5em;
